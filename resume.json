@@ -1,0 +1,129 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Carlos Quiroz Bustos",
+    "label": "Site Reliability Engineer (SRE) | Cloud Engineer | Observability Specialist",
+    "email": "cquirozit@gmail.com",
+    "phone": "+56 9 9141 5495",
+    "url": "https://www.linkedin.com/in/carlos-quiroz-3740b2104/",
+    "summary": "Ingeniero en Informática con más de 15 años de experiencia, especializado en SRE y Cloud Engineering para el sector financiero y gobierno. Experto en observabilidad centralizada con OpenTelemetry, definición de SLOs/SLIs, e infraestructura como código con Terraform.",
+    "location": {
+      "city": "Santiago",
+      "countryCode": "CL"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "carlos-quiroz-3740b2104",
+        "url": "https://www.linkedin.com/in/carlos-quiroz-3740b2104/"
+      },
+      {
+        "network": "GitHub",
+        "username": "tu-usuario-github",
+        "url": "https://github.com/tu-usuario-github"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "FAPP",
+      "position": "Site Reliability Engineer (SRE) & Cloud Engineer",
+      "startDate": "2026-04-01",
+      "summary": "Diseño y construcción del proyecto de observabilidad centralizada. Instrumentación con OpenTelemetry, definición de SLOs, dashboards as code con Terraform, optimización de costos cloud.",
+      "highlights": [
+        "Centralización de logs, métricas y trazas en fapp-observabilidad-prod",
+        "Instrumentación end-to-end con OpenTelemetry y correlation IDs",
+        "SLOs: disponibilidad 99.9%, latencia p95 para servicios públicos",
+        "Gestión de dashboards con Terraform (obs-sre-infrastructure)",
+        "Pipeline observability con BigQuery",
+        "Optimización de costos APM en GCP"
+      ]
+    },
+    {
+      "name": "Banco BICE",
+      "position": "Cloud Engineer (SRE) & SysAdmin",
+      "startDate": "2020-09-01",
+      "endDate": "2026-02-27",
+      "summary": "Automatización de infraestructura con Terraform, administración de GKE y OpenShift, FinOps, CI/CD con GitHub Actions y Azure DevOps, gobernanza de APIs con Apigee.",
+      "highlights": [
+        "IaC con Terraform en GCP y Azure",
+        "Administración de GKE y OpenShift (cloud y on-premise)",
+        "FinOps: reducción significativa de costos cloud",
+        "CI/CD con GitHub Actions y Azure DevOps",
+        "Gestión de Apigee en producción",
+        "DevSecOps integrado en el ciclo de despliegue"
+      ]
+    },
+    {
+      "name": "Banco Falabella",
+      "position": "SysAdmin Platform & DevOps",
+      "startDate": "2017-01-01",
+      "endDate": "2020-09-01",
+      "summary": "Alta disponibilidad de plataformas core a nivel regional, monitoreo con AppDynamics e Instana, gestión de cambios, seguridad PCI.",
+      "highlights": [
+        "Continuidad regional de plataformas SAT y Flexcube",
+        "Monitoreo proactivo con AppDynamics, Instana y Nagios",
+        "Liderazgo en paso a producción y presentaciones ante CAB",
+        "Mitigación de vulnerabilidades PCI",
+        "Soporte crítico 24/7"
+      ]
+    },
+    {
+      "name": "Clínica Santa María",
+      "position": "SysAdmin Platform Medisyn",
+      "startDate": "2015-02-01",
+      "endDate": "2016-12-31",
+      "summary": "Continuidad operacional de sistemas clínicos, administración de infraestructura Windows Server y Linux."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad de Santiago de Chile",
+      "area": "Ciberseguridad",
+      "studyType": "Diplomado",
+      "endDate": "2022"
+    },
+    {
+      "institution": "Universidad de los Lagos, Santiago",
+      "area": "Informática",
+      "studyType": "Ingeniería en Ejecución",
+      "startDate": "2010",
+      "endDate": "2014"
+    },
+    {
+      "institution": "INACAP, Santiago",
+      "area": "Conectividad y Redes",
+      "studyType": "Técnico",
+      "startDate": "2007",
+      "endDate": "2010"
+    }
+  ],
+  "certificates": [
+    { "name": "Associate Cloud Engineer", "issuer": "Google Cloud" },
+    { "name": "Oracle Cloud Infrastructure Architect Associate", "issuer": "Oracle" },
+    { "name": "Oracle Foundations Associate", "issuer": "Oracle" },
+    { "name": "MySQL Implementation Certified Associate", "issuer": "Oracle" },
+    { "name": "DevOps Essentials Professional Certificate", "issuer": "CertiProf" },
+    { "name": "Diplomado en Ciberseguridad", "issuer": "Universidad de Santiago de Chile" }
+  ],
+  "skills": [
+    { "name": "Cloud Platforms", "keywords": ["GCP", "OCI", "Azure"] },
+    { "name": "Observability", "keywords": ["OpenTelemetry", "Cloud Monitoring", "Cloud Logging", "Cloud Trace", "BigQuery"] },
+    { "name": "Containers & Orchestration", "keywords": ["Kubernetes", "GKE", "Cloud Run", "OpenShift", "Docker", "Istio"] },
+    { "name": "IaC & Automation", "keywords": ["Terraform", "GitHub Actions", "Azure DevOps", "CI/CD"] },
+    { "name": "API Management", "keywords": ["Apigee"] },
+    { "name": "Databases", "keywords": ["Cloud SQL", "PostgreSQL", "BigQuery", "MySQL", "Oracle", "Redis", "MongoDB Atlas"] },
+    { "name": "SRE Practices", "keywords": ["SLOs/SLIs", "Error Budgets", "Incident Management", "Runbooks", "Capacity Planning"] },
+    { "name": "Security", "keywords": ["DevSecOps", "PCI Compliance", "Ethical Hacking"] },
+    { "name": "FinOps", "keywords": ["Cost Optimization", "Billing Dashboards", "Resource Rightsizing"] }
+  ],
+  "languages": [
+    { "language": "Español", "fluency": "Nativo" },
+    { "language": "Inglés", "fluency": "Técnico" }
+  ],
+  "interests": [
+    { "name": "Parapente" },
+    { "name": "CrossFit" },
+    { "name": "Apicultura" }
+  ]
+}
