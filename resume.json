@@ -27,7 +27,7 @@
   "work": [
     {
       "name": "FAPP",
-      "position": "Site Reliability Engineer (SRE) & Cloud Engineer",
+      "position": "Site Reliability Engineer (SRE) & Cloud Engineer.",
       "startDate": "2026-04-01",
       "summary": "Diseño y construcción del proyecto de observabilidad centralizada. Instrumentación con OpenTelemetry, definición de SLOs, dashboards as code con Terraform, optimización de costos cloud.",
       "highlights": [
